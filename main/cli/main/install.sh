@@ -6,4 +6,4 @@ exit 1
 fi
 
 mkdir "&teste"
-echo "Sucesso: Dir '$testeinput'
+echo "Sucesso: Dir '$testeinput'"
