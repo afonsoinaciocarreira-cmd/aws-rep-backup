@@ -1,1 +1,2 @@
-echo "Rodando perfeitamente!"
+echo "Digitar conteudo:"
+read teste
