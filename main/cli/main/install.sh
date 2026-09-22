@@ -5,5 +5,5 @@ echo "Error in test."
 exit 1
 fi
 
-mkdir "&teste"
+mkdir "&testeinput"
 echo "Sucesso: Dir '$testeinput'"
