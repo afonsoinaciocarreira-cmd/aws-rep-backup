@@ -1,3 +1,2 @@
-echo "Digitar conteudo:"
-read input
-echo "Teste concluido com o input $input
+mkdir teste
+echo "Arquivo criado com sucesso!"
