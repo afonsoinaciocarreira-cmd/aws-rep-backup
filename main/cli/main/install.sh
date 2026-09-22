@@ -1,9 +1,8 @@
 read -p "Inserir teste: " testeinput
 
-if [ -z "$testeinput" ]; then
-echo "Error in test."
-exit 1
+if [ -d "$testeinput" ]; then
+    echo "Aviso: A pasta '$testeinput' já existe!"
+else
+    mkdir "$testeinput"
+    echo "Sucesso: Dir '$testeinput'"
 fi
-
-mkdir "$testeinput"
-echo "Sucesso: Dir '$testeinput'"
