@@ -6,4 +6,5 @@ exit 1
 fi
 
 mkdir "$testeinput"
+touch teste3423
 echo "Sucesso: Dir '$testeinput'"
