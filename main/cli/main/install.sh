@@ -1,2 +1,3 @@
 echo "Digitar conteudo:"
-read teste
+read input
+echo "Teste concluido com o input $input
