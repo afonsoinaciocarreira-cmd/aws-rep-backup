@@ -1,4 +1,4 @@
-read -p "Inserir teste: " $testeinput
+read -p "Inserir teste: " testeinput
 
 if [ -z "$testeinput" ]; then
 echo "Error in test."
